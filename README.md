@@ -1,36 +1,40 @@
 # CODSOFT_TASKSNO-1
-# Task 3 — Data Visualization Dashboard
+## Task 3 — Data Visualization
 
-## Objective
+### Objective
+Create a professional data visualization dashboard to analyze e-commerce product sales and performance.
 
-Create meaningful and professional visualizations from the women's
-clothing dataset to communicate patterns and business insights.
+### Dataset
+E-commerce product dataset containing 50,000 products and 15 attributes.
 
-## Visualizations
-
-The project includes:
-
-- Bar Chart — Product distribution by category
-- Line Chart — Average units sold by discount percentage
-- Pie Chart — Product distribution by category
-- Histogram — Product price distribution
-- Scatter Plot — Product price vs units sold
-
-## Technologies Used
-
+### Tools & Technologies
 - Python
 - Pandas
-- NumPy
 - Matplotlib
 - Seaborn
+- Power BI
 - Jupyter Notebook
+- Git & GitHub
 
-## Dataset
+### Analysis Performed
+- Product sales by category
+- Average units sold by discount percentage
+- Product price distribution
+- Price vs units sold relationship
+- Return rate by category
+- Overall product KPIs
 
-The project uses a cleaned women's clothing product dataset containing
-50,000 records and 15 variables.
+### Power BI Dashboard
+The dashboard contains:
+- Total Products
+- Total Units Sold
+- Average Product Price
+- Average Rating
+- Category filter
+- Season filter
+- Interactive analytical charts
 
-## Project Structure
+### Project Structure
 
 TASK_3_Data_Visualization/
 │
@@ -41,16 +45,10 @@ TASK_3_Data_Visualization/
 │   └── task3_visualization.ipynb
 │
 ├── outputs/
-│   ├── products_by_category.png
 │   ├── average_sales_by_discount.png
-│   ├── product_distribution_by_category.png
 │   ├── price_distribution.png
-│   └── price_vs_units_sold.png
+│   ├── price_vs_units_sold.png
+│   ├── product_distribution_by_category.png
+│   └── products_by_category.png
 │
-└── README.md
-
-## Conclusion
-
-The visualizations provide a clear overview of product distribution,
-sales behavior, pricing patterns, discount relationships, and
-potential relationships between product attributes and sales.
+└── Ecommerce_Product_Sales_Dashboard.pbix
